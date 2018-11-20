@@ -1,4 +1,3 @@
-
 from fichero import FicheroHandler
 from tablero import Tablero
 
