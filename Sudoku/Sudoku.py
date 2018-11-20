@@ -7,7 +7,7 @@ print("      RESOLVEDOR DE SUDOKUS        ")
 print("-----------------------------------")
 
 
-file = FicheroHandler('sudoku.txt')
+file = FicheroHandler('sudoku.txt') 
 datos = file.leerFichero()
 
 tablero = Tablero('sudoku.txt')
