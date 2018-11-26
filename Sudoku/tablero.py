@@ -50,7 +50,7 @@ class Tablero:
                         del elem.posibilidades[0]
 
 
-    def resolver(self):
+    def resolver_mecanico(self):
         i = 0
         while i < len(self.posiciones):
             pos = self.posiciones[i]
@@ -68,7 +68,6 @@ class Tablero:
             print("  SOLUCION ENCONTRADA: ")
             self.print_solucion()
             return True
-
         else:
             return False
 

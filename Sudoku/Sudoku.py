@@ -13,7 +13,7 @@ datos = file.leerFichero()
 tablero = Tablero('sudoku.txt')
 tablero.set_tablero(datos)
 
-if tablero.resolver() == True:
+if tablero.resolver_mecanico() == True:
     print("FIN")
 
 else:
